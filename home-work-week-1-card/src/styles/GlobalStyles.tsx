@@ -1,13 +1,15 @@
 import { createGlobalStyle } from "styled-components";
+import { myTheme } from "./Theme.styled";
 
 export const GlobalStyles = createGlobalStyle`
     body {
         background-color: #848484;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif;
+        font-family: 'Inter', sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        color: ${myTheme.color.main};
+        font-weight: ${myTheme.fontSize.large};
+        font-style: normal;
     }
     *,
     *::after,
