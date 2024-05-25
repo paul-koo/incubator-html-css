@@ -1,9 +1,9 @@
 import styled from "styled-components";
 type ScreenPictureType = {
-    roads: string,
+    road: string,
 }
 export const ScreenPicture = styled.img.attrs<ScreenPictureType>((props) => ({
-    src: props.roads,
+    src: props.road,
 }))`
     width: 100%;
     height: 170px;
