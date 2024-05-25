@@ -10,9 +10,15 @@ export const myTheme = {
     },
 
     fontSize: {
-        small: 500,
-        large: 700
+        small: '12px',
+        large: '16px',
+    },
+
+    fontWeight: {
+        bold: 700,
+        thin: 500,
     }
+
 
 
 

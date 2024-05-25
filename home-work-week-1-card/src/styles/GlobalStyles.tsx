@@ -3,7 +3,7 @@ import { myTheme } from "./Theme.styled";
 
 export const GlobalStyles = createGlobalStyle`
     body {
-        background-color: #848484;
+        background-color: #c0bfbf;
         font-family: 'Inter', sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -12,7 +12,7 @@ export const GlobalStyles = createGlobalStyle`
         font-style: normal;
         display: flex;
         justify-content: center;
-        
+
     }
     *,
     *::after,
