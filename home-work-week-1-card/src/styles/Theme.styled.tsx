@@ -5,6 +5,10 @@ export const myTheme = {
         button: "#4E71FE"
     },
 
+    backgroundColor: {
+        main: "#FFFFFF",
+    },
+
     fontSize: {
         small: 500,
         large: 700

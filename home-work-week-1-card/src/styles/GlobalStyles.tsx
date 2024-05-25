@@ -10,6 +10,9 @@ export const GlobalStyles = createGlobalStyle`
         color: ${myTheme.color.main};
         font-weight: ${myTheme.fontSize.large};
         font-style: normal;
+        display: flex;
+        justify-content: center;
+        
     }
     *,
     *::after,
