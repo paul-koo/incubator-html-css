@@ -7,4 +7,6 @@ export const CardBody = styled.div`
     background-color: ${myTheme.backgroundColor.main};
     border-radius: 15px;
     padding: 10px 10px 22px 10px;
+    display: flex;
+    flex-direction: column;
 `

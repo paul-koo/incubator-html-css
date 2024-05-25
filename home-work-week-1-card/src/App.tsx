@@ -3,13 +3,15 @@ import styled from 'styled-components';
 import { CardBody } from './components/CardBody.styled';
 import { ScreenPicture } from './components/Image.styled';
 import { Title } from './components/Title.styled';
+import { Paragraph } from './components/Paragraph.styled';
 
 function App() {
   return (
     <Wrapper>
       <CardBody>
-        <ScreenPicture roads={"./images/image1.png"}></ScreenPicture>
+        <ScreenPicture roads={"./images/image1.png"}/>
         <Title>Headline</Title>
+        <Paragraph>Faucibus. Faucibus. Sit sit sapien sit <br/> tempusrisu ut. Sit molestie ornare in venen.</Paragraph>
       </CardBody>
       <CardBody>
       </CardBody>

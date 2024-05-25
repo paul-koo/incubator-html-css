@@ -8,7 +8,7 @@ export const GlobalStyles = createGlobalStyle`
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         color: ${myTheme.color.main};
-        font-weight: ${myTheme.fontSize.large};
+        font-size: ${myTheme.fontSize.large};
         font-style: normal;
         display: flex;
         justify-content: center;
