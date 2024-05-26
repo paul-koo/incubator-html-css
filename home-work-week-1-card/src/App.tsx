@@ -19,8 +19,6 @@ function App() {
           <Button status={"inactive"}>Save</Button>
         </ButtonContainer>
       </CardBody>
-      <CardBody>
-      </CardBody>
     </Wrapper>
   );
 }
