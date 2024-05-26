@@ -17,6 +17,7 @@ export const Button = styled.button<ButtonPropsType>`
         color: ${myTheme.backgroundColor.main};
 
         &:hover {
+            cursor: pointer;
             background-color: ${myTheme.backgroundColor.main};
             color: ${myTheme.color.button};
             border: 2px solid ${myTheme.color.button};
@@ -30,8 +31,9 @@ export const Button = styled.button<ButtonPropsType>`
         border: 2px solid ${myTheme.color.button};
 
         &:hover {
+            cursor: pointer;
             background-color: ${myTheme.color.button};
-        color: ${myTheme.backgroundColor.main};
+            color: ${myTheme.backgroundColor.main};
         }
 
     `}
